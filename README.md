@@ -1,27 +1,13 @@
-# CodeIgniter 4 Application Starter
+# SCHOOL WEB APP
 
-## What is CodeIgniter?
+## What is school management system?
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](http://codeigniter.com).
-
-This repository holds a composer-installable app starter.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
-
-More information about the plans for version 4 can be found in [the announcement](http://forum.codeigniter.com/thread-62615.html) on the forums.
-
-The user guide corresponding to this version of the framework can be found
-[here](https://codeigniter4.github.io/userguide/).
+This is a system that cam be used by teachers to store students data and retrieve whenever rerquired. It has a space where  teachers can add marks, fees, and names of the students so that could be used in the future.
+I used codeigniter framework to help this system work well  i.e. avoid repetition and increase development guidelines.
 
 ## Installation & updates
 
-`composer create-project codeigniter4/appstarter` then `composer update` whenever
-there is a new release of the framework.
-
-When updating, check the release notes to see if there are any changes you might need to apply
-to your `app` folder. The affected files can be copied or merged from
-`vendor/codeigniter4/framework/app`.
+Glone this project here into `htdocs` if you are using XAMPP in windows or copy to `www` folder in apache server if you are using linux system (LAMPP).
 
 ## Setup
 
@@ -39,13 +25,9 @@ framework are exposed.
 
 **Please** read the user guide for a better explanation of how CI4 works!
 
-## Repository Management
+## Bugs and problems
 
-We use Github issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
-
-This repository is a "distribution" one, built by our release preparation script.
+For any problems encountered, feel free to inquire here. I am ready to here from you.
 Problems with it can be raised on our forum, or as issues in the main repository.
 
 ## Server Requirements
