@@ -1,4 +1,4 @@
-# SCHOOL WEB APP
+# SCHOOL MANAGEMENT SYSTEM
 
 ## What is school management system?
 
