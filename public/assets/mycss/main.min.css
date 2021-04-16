@@ -1,0 +1,166 @@
+:root{
+	--mainbackground:white;
+}
+
+*{
+	box-sizing: border-box;
+	top: 0px;
+	margin: 0px;
+}
+
+html, body {
+	height: 100vh;
+	width: 100%;
+	background-color: var(--mainbackground);
+}
+
+.full-wh{
+	width: 100%;
+	height: 100vh;
+}
+
+.full-width{
+	width: 100%;
+}
+.full-height{
+	height: 100vh;
+}
+
+/***
+  Preloader overlays and preloader-spinner
+**/
+.overlay-div{
+	background-color: grey;
+}
+.preloader-spinner{
+	height: 4rem;
+	width: 4rem;
+	font-weight: 600;
+	border-width: 10px !important;
+}
+
+/**
+main div
+*/
+#main{
+	background-color: white;
+}
+
+#main .top-header-links{
+	margin-top: 1rem;
+}
+
+#main .bottom-footer-links{
+	margin-bottom: 1rem;
+}
+
+#main .top-header-links a:last-child{
+	margin-right: 3rem;
+}
+#main .top-header-links a{
+	text-decoration: none;
+	padding: 1rem 1rem;
+	font-weight: 500;
+	color: grey;
+}
+
+#main .top-header-links a:hover{
+	color: blue;
+}
+
+/**
+Footer 
+*/
+
+#main .bottom-footer-links{
+	margin-bottom: 1rem;
+}
+#main .bottom-footer-links a{
+	padding: 0 1rem;
+}
+
+/**
+Form group
+**/
+.form-group{
+  padding-top: .3rem;
+  padding-bottom: .3rem;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+.form-group label{
+  display: none;
+}
+.form-group input{
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  border-radius: none;
+  box-sizing: border-box;
+  border: none;
+}
+.form-group .input-div{
+  border: 2px solid grey;
+  outline: 1px solid green;
+}
+
+.form-group .input-div select{
+  font-size: 18px;
+  width: 100%;
+  outline: none;
+  color: var(--secondary);
+  border-radius: none;
+  box-sizing: border-box;
+  border: none;
+}
+.form-group .input-div select > option{
+	color: var(--dark);
+}
+
+.form-group span.bx{
+  padding: 0.2rem;
+}
+
+.form-group .input-div{
+  padding: .5rem;
+  border: 1px solid grey;
+  border-radius: none;
+  box-sizing: border-box;
+}
+.form-group button{
+  font-size: 18px;
+  width: 100%;
+  padding: .5rem;
+  box-sizing: border-box;
+  border-radius: 0px;
+}
+.form-group button:hover{
+	background-color: darkgreen;
+}
+
+.logo-div{
+	margin-bottom: 2rem;
+}
+.logo-image{
+	width: 150px;
+	height: 150px;
+}
+.after-submit-btn {
+	font-size: 1rem;
+}
+
+/*Dashboard*/
+.left-dashboard-nav{
+	/*background-color: #065;*/
+}
+
+.left-dashboard-nav .btn{
+	width: 80%;
+	border-radius: 0px;
+}
+.hover-bg-light:hover{
+	background-color: var(--light);
+}
+.hover-bg-success:hover{
+	background-color: var(--success);
+}
